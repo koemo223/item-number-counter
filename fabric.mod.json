@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "hud_icon_0_1_1_fabric_lo",
+  "version": "1.0.0-r1",
+  "name": "item num counter",
+  "description": "a mod for counting number, can be customize",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cn.blockforge.generated.hudicon011fabriclo.GeneratedMod"
+    ],
+    "client": [
+      "cn.blockforge.generated.hudicon011fabriclo.CounterHudClient"
+    ],
+    "modmenu": [
+      "cn.blockforge.generated.hudicon011fabriclo.ModMenuIntegration"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.3",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": ">=17.0.1"
+  }
+}
